@@ -32,7 +32,7 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   
   const { carouselState: { currentSlide } } = rest;
   return (
-    <div className='flex gap-2 absolute bottom-0 right-0  top-0 mt-[1060px] mr-[40px] md:mr-[170px]'>
+    <div className='flex gap-2 absolute bottom-0 right-0  top-0 mt-[1070px] sm:mt-[1120px] md:mt-[1120px] mr-[40px] sm:mr-[100px] md:mr-[190px]'>
     <div className='bg-bggreen w-[40px] h-[40px] rounded-full text-center cursor-pointer' onClick={() => previous()}>
     <ArrowLeftOutlined className='mt-[12px]'/>
     </div>
@@ -46,11 +46,11 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   return (
     <div className='w-[75%] m-auto'>
         <div className='w-[100%] flex justify-between mt-20 m-auto'>
-            <div className='flex gap-10'>
+            <div className='flex w-[75%] md:gap-10'>
             <p className='text-white md:text-3xl font-extrabold mt-2'>
             UPCOMING POOL  
             </p>
-            <img src='assets/Banner/star.f728374a.svg'/>
+            <img src='assets/Banner/star.f728374a.svg' className=' md:w-[8%] w-[14%] mt-[7px] ml-[10px]'/>
             </div>
             
             
