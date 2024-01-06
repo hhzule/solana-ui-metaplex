@@ -42,7 +42,7 @@ const Herosection = () => {
         </div>
         
          
-       <div className=' flex absolute top-0 mt-[670px] ml-[20px] left-0 mr-[20px] right-0 gap-3 md:flex md:absolute md:top-0  md:mt-[380px] lg:mt-[540px] sm:ml-[150px]  md:ml-[130px] lg:ml-[180px] md:gap-4'>
+       <div className=' flex absolute top-0 mt-[620px] ml-[20px] left-0 mr-[20px] right-0 gap-3 md:flex md:absolute md:top-0  md:mt-[380px] lg:mt-[540px] sm:ml-[150px]  md:ml-[130px] lg:ml-[180px] md:gap-4'>
     
          <button className='w-[170px] h-12 bg-bggreen hover:bg-hoverBg text-center font-semibold rounded-sm '>Luanchpad</button>
          <button className='w-[170px] h-12 rounded-sm	border border-gray-600 text-white hover:bg-white hover:text-black hover:font-semibold'>Find The Gems</button>

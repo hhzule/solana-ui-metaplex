@@ -32,7 +32,7 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   
   const { carouselState: { currentSlide } } = rest;
   return (
-    <div className='flex gap-2 absolute bottom-0 right-0  top-0 mt-[1070px] sm:mt-[1120px] md:mt-[1120px] mr-[40px] sm:mr-[100px] md:mr-[190px]'>
+    <div className='flex gap-2 absolute bottom-0 right-0  top-0 mt-[1070px] sm:mt-[1120px]   md:mt-[830px] lg:mt-[1160px] mr-[40px] sm:mr-[100px] md:mr-[120px] lg:mr-[190px]'>
     <div className='bg-bggreen w-[40px] h-[40px] rounded-full text-center cursor-pointer' onClick={() => previous()}>
     <ArrowLeftOutlined className='mt-[12px]'/>
     </div>

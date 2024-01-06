@@ -12,3 +12,30 @@
     
     background-color: green !important;
 } */
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%)
+    }
+}
+.mainDiv{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap; 
+    margin-top: 50px; 
+}
+
+.image_slide{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    animation: 45s slide infinite linear;
+
+}
+.mainDiv:hover .image_slide {
+    animation-play-state: paused;
+}
