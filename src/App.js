@@ -6,6 +6,7 @@ import Join from "./Component/join";
 import WebGaming from "./Component/webGaming";
 import GamingWorld from "./Component/GamingWorld";
 import MissionSection from "./Component/MissionSection"
+import Footer from "./Component/Footer"
 function App() {
   return (
     <div className="bg-bgdark">
@@ -16,7 +17,8 @@ function App() {
      <Join/>
      <WebGaming/>
      <GamingWorld/>
-     {/* <MissionSection/> */}
+     <MissionSection/>
+     <Footer/>
     </div>
   );
 }
