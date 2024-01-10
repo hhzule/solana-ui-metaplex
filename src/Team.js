@@ -14,7 +14,7 @@ const Team = () => {
           <div
             className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img src="https://mdbcdn.b-cdn.net/img/new/avatars/6.jpg" className="w-full rounded-t-lg" />
+              <img src="assets/misson/female.png" className="w-full rounded-t-lg" />
               <a href="#!">
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
               </a>
@@ -62,7 +62,7 @@ const Team = () => {
           <div
             className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg" className="w-full rounded-t-lg" />
+              <img src="assets/misson/profile-male.jpg" className="w-full rounded-t-lg" />
               <a href="#!">
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
               </a>
@@ -106,11 +106,11 @@ const Team = () => {
           </div>
         </div>
   
-        <div className="">
+        <div className="mb-6 lg:mb-0">
           <div
             className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img src="https://mdbcdn.b-cdn.net/img/new/avatars/15.jpg" className="w-full rounded-t-lg" />
+              <img src="assets/misson/female.png" className="w-full rounded-t-lg" />
               <a href="#!">
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
               </a>
@@ -157,11 +157,11 @@ const Team = () => {
         </div>
 
 
-        <div className="">
+        <div className="mb-6 lg:mb-0">
           <div
-            className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            className="block rounded-lg xs-mt-4 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img src="https://mdbcdn.b-cdn.net/img/new/avatars/15.jpg" className="w-full rounded-t-lg" />
+              <img src="assets/misson/female.png" className="w-full rounded-t-lg" />
               <a href="#!">
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
               </a>
