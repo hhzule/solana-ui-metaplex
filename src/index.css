@@ -2,17 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .listContainer{
-    display: flex;
-    gap: 20px;
-    position: absolute;
-    top: 0;
-    margin-top: 250px;
-    margin-left: 90px;
-    
-    background-color: green !important;
-} */
-
+.my-custom-bg-class{
+    background-image: url(../public//assets/misson/Cryptocurrency-Coins.jpg);
+  }
 
 @keyframes slide {
     from {

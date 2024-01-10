@@ -1,23 +1,21 @@
 import Header from "./Component/Header";
-import Herosection from "./Component/Herosection";
-import BannerSection from "./Component/bannerSection";
-import UpCommingPool from "./Component/upCommingPool";
-import Join from "./Component/join";
-import WebGaming from "./Component/webGaming";
-import GamingWorld from "./Component/GamingWorld";
-import MissionSection from "./Component/MissionSection"
 import Footer from "./Component/Footer"
+import { Routes, Route} from "react-router-dom"
+import Home from "./Home";
+import Presale from "./Presale";
+import Team from "./Team";
 function App() {
   return (
     <div className="bg-bgdark">
+
      <Header/>
-     <Herosection/>
-     <BannerSection/>
-     <UpCommingPool/>
-     <Join/>
-     <WebGaming/>
-     <GamingWorld/>
-     <MissionSection/>
+     <Routes>
+     <Route path="/" element={ <Home/>}/>
+     <Route path="/Presale" element={ <Presale/>}/>
+     <Route path="/Team" element={ <Team/>}/>
+     </Routes>
+    
+     
      <Footer/>
     </div>
   );
