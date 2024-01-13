@@ -4,7 +4,7 @@ import React from 'react'
 const swap = () => {
   return (
     <div className=' flex justify-center  bg-no-repeat h-[500px] m-auto items-center'>
-    <div className='w-[400px] xs:mx-4  pt-4 pb-6 h-auto rounded-2xl bg-[#161534] drop-shadow-xl  '>
+    <div className='w-[400px] xs:mx-4  pt-4 pb-6 h-auto mt-14 rounded-2xl bg-[#161534] drop-shadow-xl  '>
         <p className='text-1xl ml-3 pb-2 text-white'>swap</p>
         <div className='relative bg-[#17165a] pt-2 mx-3'>
         <div className='flex justify-between  mt-2 mx-3'>
