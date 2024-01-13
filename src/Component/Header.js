@@ -16,7 +16,7 @@ const Header = () => {
                 <li className='mr-4 ml-4 xs:pt-[2px] xs:hover:text-bggreen xs:cursor-pointer cursor-pointer'><Link to="/">Home</Link></li>
                 <li className='mr-4 ml-4 xs:py-[2px]  xs:hover:text-bggreen cursor-pointer'><Link to="/Presale">Presale</Link></li>
                 <li className='mr-4 ml-4 xs:py-[2px]  xs:hover:text-bggreen cursor-pointer'><Link to="/Team">Team</Link></li>
-                <li className='mr-4 ml-4 xs:py-[2px] xs:hover:text-bggreen cursor-pointer'><Link to="/about">AboutUs</Link></li>
+                <li className='mr-4 ml-4 xs:py-[2px] xs:hover:text-bggreen cursor-pointer'><Link to="/about">About</Link></li>
                 <li className='mr-4 ml-4 xs:py-[2px]  xs:hover:text-bggreen cursor-pointer'><Link to="contact-us">Contact</Link></li>
                 </ul>
                 </div>
