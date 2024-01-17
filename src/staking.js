@@ -216,7 +216,7 @@ const staking = () => {
 
                             </div>
                         </div>
-                        <div className="flex flex-col px-6 py-6 bg-[#303941] xs:mt-6 rounded-md">
+                        <div className="flex flex-col px-6 py-6 bg-gray-800 xs:mt-6 rounded-md">
                             <div className="stacking__approve">
                                 <div className="stacking__approve-field mb-5">
                                     <label for="approve-stack" className="text-white font-semibold">Balance: <span className='text-gray-400'>3529.00 BUSD</span>
