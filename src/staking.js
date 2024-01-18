@@ -7,7 +7,7 @@ const staking = () => {
         <div className=" ">
             <div className="flex items-center w-[100%]">
                 <div className="lg:flex  xs:w-[100%] sx:m-auto xs:py-2 sm:py-2 sm:mx-20 sm:w-[100%] lg:w-[80%] lg:gap-6 lg:m-auto   lg:mt-20">
-                    <div className=" mt-8 lg:w-[33%]  sx:w-[100%] sx:m-auto md:flex-1 bg-gray-900  py-6 justify-center">
+                    <div className=" xs:mt-6 lg:w-[33%]  xs:w-[80%]  xs:m-auto md:flex-1 bg-gray-900  py-6 justify-center">
                         
                             <div className="flex flex-col items-center">
                                 <h3 className='text-white text-3xl font-semibold'>$ <span className="text-white" data-purecounter-start="639499"
@@ -16,7 +16,7 @@ const staking = () => {
                             </div>
                      
                     </div>
-                    <div className=" mt-6 lg:w-[33%]  bg-gray-900 py-6 justify-center">
+                    <div className=" xs:mt-6 lg:w-[33%]  xs:w-[80%]  xs:m-auto  bg-gray-900 py-6 justify-center">
                         
                             <div className="flex flex-col items-center">
                                 <h3 className='text-white text-3xl font-semibold'><span className="text-white" data-purecounter-start="0"
@@ -25,7 +25,7 @@ const staking = () => {
                             </div>
                         
                     </div>
-                    <div className=" mt-6  lg:w-[33%] bg-gray-900 py-6 justify-center">
+                    <div className=" xs:mt-6  xs:w-[80%]  xs:m-auto lg:w-[33%] bg-gray-900 py-6 justify-center">
                        
                             <div className="flex flex-col items-center">
                                 <h3 className='text-white text-3xl font-semibold'><span className="text-white" data-purecounter-start="0"
@@ -224,18 +224,18 @@ const staking = () => {
                                     <div className=" flex flex-nowrap mt-3">
                                         <input type="text" className="w-[100px] h-[50px] text-white bg-bgdark pl-6" aria-label="Approve Stack"
                                             id="approve-stack" placeholder="0.00"/>
-                                        <span className=" py-[13px] px-8 text-gray-500 bg-bgdark">Max</span>
-                                        <button className="w-[100px] bg-bggreen font-semibold text-center h-[50px]">Approve</button>
+                                        <span className=" py-[13px] px-8 xs:px-2 text-gray-500 bg-bgdark">Max</span>
+                                        <button className="w-[100px] bg-bggreen font-semibold text-center xs:text-sm h-[50px]">Approve</button>
                                     </div>
                                 </div>
                                 <div className="stacking__approve-withdraw">
                                     <label for="withdraw-stack" className="text-white font-semibold">Staked: <span className='text-gray-400'>350.70 BUSD</span>
                                     </label>
                                     <div className=" flex flex-nowrap mt-3">
-                                        <input type="text" className="w-[100px] h-[50px] text-white bg-bgdark pl-6" aria-label="Withdraw Stack"
+                                        <input type="text" className="w-[100px]  h-[50px] text-white bg-bgdark pl-6" aria-label="Withdraw Stack"
                                             id="withdraw-stack" placeholder="0.00"/>
-                                        <span className=" py-[13px] px-8 text-gray-500 bg-bgdark">Max</span>
-                                        <button className="w-[100px] bg-bggreen font-semibold text-center h-[50px]">Withdraw</button>
+                                        <span className=" py-[13px] px-8 xs:px-2 text-gray-500 bg-bgdark">Max</span>
+                                        <button className="w-[100px] bg-bggreen font-semibold text-center h-[50px] xs:text-sm">Withdraw</button>
                                     </div>
                                 </div>
                             </div>
