@@ -5,10 +5,11 @@ import { Link } from "react-router-dom"
 const Header = () => {
   const [isOpen, setIsOPen] =useState(false)
   return (
-        <div className=' flex justify-around w-100 sm:flex sm:justify-around md:flex md:justify-evenly lg:justify-evenly bg-bgdark py-4  border-b border-gray-600 '>
+        <div className=' flex justify-around w-100 lg:pl-20 lg:pr-20 sm:flex sm:justify-around md:flex md:justify-evenly lg:justify-evenly bg-bgdark py-4  border-b border-gray-600 '>
         <div className='flex justify-between items-center  md:flex md:items-center'>
             <div className=''>
-              <img src='assets/gamefi.org.png' width="140" height="24"/>
+              {/* <img src='assets/gamefi.org.png' width="140" height="24"/> */}
+             <p className='text-bggreen text-3xl font-extrabold'>Brd<span className=' font-extrabold text-3xl fill-black stroke-green-500 stroke-1'>Fi</span>Game</p> 
             </div>
             <div className=''>
                 <ul className={isOpen?" xs:bg-white xs:w-[180px] z-50 xs:absolute  xs:mr-[45px]  sm:w-[180px] xs:px-2  xs:mt-4 xs:py-6 xs:right-0  sm:fixed sm:bg-white sm:py-4   sm:mt-4  sm:right-0  sm:mr-[140px] sm:ml-[350px] md:ml-[100px] rounded md:bg-bgdark md:mt-[0px] md:items-center md:py-0 sm:text-left md:flex lg:flex md:text-white text-sm  uppercase  font-semibold pl-6 pr-6":'hidden sm:ml-[85px] md:ml-[200px] rounded  sm:text-left md:flex lg:flex lg:ml-0 md:text-white text-sm  uppercase  font-semibold pl-6 pr-6' }

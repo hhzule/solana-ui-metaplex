@@ -10,9 +10,7 @@ const Footer = () => {
 
         <div className=' mt-20 grid w-full grid-cols-2 justify-between gap-6 md:grid-cols-6 md:gap-0'>
         <div className='col-span-1'>
-            <h6 className='font-alumni text-[18px] font-normal tracking-wider text-[#9296A2]'>
-              Home 
-            </h6>
+           
             <ul className='mt-4 flex flex-col gap-3 xl:mt-5 xl:gap-4'>
                 <li className='font-inter text-base cursor-pointer leading-5 text-white hover:text-[#7FF252] hover:underline'>
                <Link to="/">Home</Link>
@@ -25,9 +23,7 @@ const Footer = () => {
 
 
         <div className='col-span-1'>
-            <h6 className='font-alumni text-[18px] font-normal tracking-wider text-[#9296A2]'>
-            Presale
-            </h6>
+           
             <ul className='mt-4 flex flex-col gap-3 xl:mt-5 xl:gap-4'>
 
             <li className='font-inter text-base cursor-pointer leading-5 text-white hover:text-[#7FF252] hover:underline'>
@@ -36,10 +32,20 @@ const Footer = () => {
 
             </ul>
         </div>
+         
         <div className='col-span-1'>
-            <h6 className='font-alumni text-[18px] font-normal tracking-wider text-[#9296A2]'>
-            Team
-            </h6>
+           
+           <ul className='mt-4 flex flex-col gap-3 xl:mt-5 xl:gap-4'>
+
+           <li className='font-inter text-base cursor-pointer leading-5 text-white hover:text-[#7FF252] hover:underline'>
+              <Link to="/staking">staking</Link>
+               </li>
+
+           </ul>
+       </div>
+
+        <div className='col-span-1'>
+           
             <ul className='mt-4 flex flex-col gap-3 xl:mt-5 xl:gap-4'>
             <li className='font-inter text-base cursor-pointer leading-5 text-white hover:text-[#7FF252] hover:underline'>
                <Link to="/Team">Team</Link>
@@ -50,9 +56,7 @@ const Footer = () => {
         
         
         <div className='col-span-1'>
-            <h6 className='font-alumni text-[18px] font-normal  cursor-pointer tracking-wider text-[#9296A2]'>
-            About Us
-            </h6>
+           
             <ul className='mt-4 flex flex-col gap-3 xl:mt-5 xl:gap-4'>
              
             <li className='font-inter text-base cursor-pointer leading-5 text-white hover:text-[#7FF252] hover:underline'>
@@ -62,9 +66,7 @@ const Footer = () => {
         </div>
 
         <div className='col-span-1'>
-            <h6 className='font-alumni text-[18px] font-normal tracking-wider text-[#9296A2]'>
-            Contact
-            </h6>
+           
             <ul className='mt-4 flex flex-col gap-3 xl:mt-5 xl:gap-4'>
 
             <li className='font-inter text-base cursor-pointer leading-5 text-white hover:text-[#7FF252] hover:underline'>
