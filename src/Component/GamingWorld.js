@@ -72,7 +72,7 @@ const GamingWorld = () => {
     </div>
     </div> 
     <div className='mt-10 pb-10 flex justify-center items-center'>
-      <p className='w-[150px] h-[40px] bg-bggreen rounded-sm text-center pt-2 font-semibold cursor-pointer' >Join Now</p>
+      <p className='w-[150px] h-[40px] bg-bggreen rounded-sm text-center pt-2 font-semibold cursor-pointer' > <a href='http://brdigitech.com/' target='_blank'> Join Now </a></p>
     </div>
     </>
    

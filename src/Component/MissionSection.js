@@ -32,9 +32,9 @@ const MissionSection = () => {
                 </p>
             </div>
             <div className='mt-4'>
-                <button className='flex h-[42px] w-[163px] items-center justify-center rounded bg-[#7FF252]  text-base font-semibold text-black hover:bg-[#46CF10] md:h-[40px] md:w-[140px] xl:w-[160px] xl:text-[18px] 2xl:w-[180px] 2xl:text-[20px] 2xl:h-[50px] 2xxl:h-[60px] 2xxl:w-[200px] 2xxl:text-[24px]'>
+            <a href='http://brdigitech.com/' target='_blank'>  <button className='flex h-[42px] w-[163px] items-center justify-center rounded bg-[#7FF252]  text-base font-semibold text-black hover:bg-[#46CF10] md:h-[40px] md:w-[140px] xl:w-[160px] xl:text-[18px] 2xl:w-[180px] 2xl:text-[20px] 2xl:h-[50px] 2xxl:h-[60px] 2xxl:w-[200px] 2xxl:text-[24px]'>
                 Discovery Now
-                </button>
+                </button></a> 
             </div>
             <div className='w-[70%]'>
                 <img src='assets/misson/background.445bc341.png' className='w-[100%]'/>
