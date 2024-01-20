@@ -10,7 +10,7 @@ const webGaming = () => {
     </div>
     <div className='sm:flex  sm:flex-wrap sm:gap-6 sm-mt-20 md:flex !md:flex-wrap md:gap-6 md:mt-20'>
     
-        <div className='mt-8  md:mt-0 md:flex xs:w-[330px] sx:h-[150px] cursor-pointer  pl-2 pt-2  flex-col pb-8 justify-center rounded-[24px] bg-[#272727] hover:bg-[#040405] md:h-[160px]
+        <div className='mt-8  md:mt-0 md:flex xs:w-[330px] xs:h-[160px] cursor-pointer xs:pb-1 xs:pl-2  flex-col pb-8 justify-center rounded-[24px] bg-[#272727] hover:bg-[#040405] md:h-[160px]
           md:gap-2 xl:h-[170px] xl:w-[17.1875vw] xl:gap-3 2xl:h-[210px] 2xl:gap-4 2xxl:h-[220px]'>
             {/* <img src='assets/Web3/igo.20418964.svg' className='sm:hidden'/> */}
             <div className=' sm:block '>
@@ -36,7 +36,7 @@ projects before they reach</p>
        
 
         
-        <div className='  mt-8 md:mt-0 flex xs:w-[330px] sx:h-[150px] cursor-pointer pl-2 pt-2 pr-2 flex-col pb-8 justify-center rounded-[24px] bg-[#040405] hover:bg-[#272727] md:h-[160px]  md:gap-2 xl:h-[170px] xl:w-[17.1875vw] xl:gap-3 2xl:h-[210px] 2xl:gap-4 2xxl:h-[220px]'>
+        <div className='  mt-8 md:mt-0 flex xs:w-[330px] xs:h-[160px] cursor-pointer pl-2 pt-2 pr-2 flex-col pb-8 justify-center rounded-[24px] bg-[#040405] hover:bg-[#272727] md:h-[160px]  md:gap-2 xl:h-[170px] xl:w-[17.1875vw] xl:gap-3 2xl:h-[210px] 2xl:gap-4 2xxl:h-[220px]'>
         {/* <img src='assets/Web3/igo.20418964.svg' className='sm:hidden'/> */}
             <div className=' sm:block '>
             <img src='/assets/Web3/ido.802696b8.svg' className='md:w-[18%]  xs:ml-4 mt-8 md:ml-3'/>
@@ -60,7 +60,7 @@ projects before they reach</p>
         </div>
 
 
-        <div className='  mt-8 md:mt-0 flex xs:w-[330px] sx:h-[150px] cursor-pointer pl-2 pt-2 pr-2 flex-col pb-8 justify-center rounded-[24px] bg-[#272727] hover:bg-[#040405] md:h-[160px]  md:gap-2 xl:h-[170px] xl:w-[17.1875vw] xl:gap-3 2xl:h-[210px] 2xl:gap-4 2xxl:h-[220px]'>
+        <div className='  mt-8 md:mt-0 flex xs:w-[330px] xs:h-[160px] cursor-pointer pl-2 pt-2 pr-2 flex-col pb-8 justify-center rounded-[24px] bg-[#272727] hover:bg-[#040405] md:h-[160px]  md:gap-2 xl:h-[170px] xl:w-[17.1875vw] xl:gap-3 2xl:h-[210px] 2xl:gap-4 2xxl:h-[220px]'>
             {/* <img src='assets/Web3/igo.20418964.svg' className='sm:hidden'/> */}
             <div className=' sm:block '>
             <img src='/assets/Web3/nft.b3c811f3.svg' className='md:w-[18%] xs:ml-4 mt-8 md:ml-3'/>
@@ -83,7 +83,7 @@ projects before they reach</p>
         </div>
         </div>
 
-        <div className='  mt-8 md:mt-0 flex xs:w-[330px] sx:h-[150px] cursor-pointer  pl-2 pt-2 pr-2 flex-col pb-8 justify-center rounded-[24px] bg-[#040405] hover:bg-[#272727] md:h-[160px] md:gap-2 xl:h-[170px] xl:w-[17.1875vw] xl:gap-3 2xl:h-[210px] 2xl:gap-4 2xxl:h-[220px]'>
+        <div className='  mt-8 md:mt-0 flex xs:w-[330px] xs:h-[160px]  cursor-pointer  pl-2 pt-2 pr-2 flex-col pb-8 justify-center rounded-[24px] bg-[#040405] hover:bg-[#272727] md:h-[160px] md:gap-2 xl:h-[170px] xl:w-[17.1875vw] xl:gap-3 2xl:h-[210px] 2xl:gap-4 2xxl:h-[220px]'>
              {/* <img src='assets/Web3/igo.20418964.svg' className='  sm:hidden'/> */}
             <div className=' sm:block '>
             <img src='/assets/Web3/dmission.74c5d322.svg' className='md:w-[18%] xs:ml-4  mt-10 md:ml-3'/>
