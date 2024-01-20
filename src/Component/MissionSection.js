@@ -3,28 +3,23 @@ import Mission_card from "./mission"
 
 const MissionSection = () => {
   return (
-    <div className='w-[75%] m-auto mt-20 md:flex  lg:flex gap-10'>
+    <div className='w-[75%] m-auto  mt-20 md:flex  lg:flex gap-10'>
         
-        <div className=' sm:flex sm:flex-wrap sm:grid-flow-cols-2 md:grid-cols-3 gap-[16px] md:grid md:gap-[8px] lg:gap-[12px] xl:gap-[20px] 2xl:gap-[24px] 2xxl:gap-[30px]'>
+        <div className=' sm:flex sm:flex-wrap sm:grid-flow-cols-2 md:grid-cols-3 h-auto gap-[16px] md:grid md:gap-[8px] lg:gap-[12px] xl:gap-[20px] 2xl:gap-[24px] 2xxl:gap-[30px]'>
           
           <Mission_card 
           image="assets/misson/b820a9b6-6270-4a8b-b212-2692aef4a345.png"
+          text="Chances to secure guaranteed Bitcoin Cats NFTs"
           />
           <Mission_card
            image="assets/misson/2498c301-d001-44c7-8ea2-3768f271ee43.png"
+           text="Anichess $260 USDT Puzzle Challenge: Play, Solve, Win!"
           />
           <Mission_card
            image="assets/misson/98e60271-28d4-42b1-866f-2d64cdf32007.png"
+           text="GameFi IDO Celebration | $500  Giveaway"
           />
-          <Mission_card
-           image="assets/misson/653742aa-ca45-4516-9a0b-91db7aaf0c36.png"
-          /> 
-          <Mission_card
-           image="assets/misson/41dffab9-b902-4c61-a174-285dbd36eaff.png"
-          />
-          <Mission_card
-           image="assets/misson/e110575e-4737-41da-8931-6dcd586abac9.jpg"
-          />
+         
           
       </div>
 
