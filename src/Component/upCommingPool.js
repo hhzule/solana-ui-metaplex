@@ -3,7 +3,7 @@ import {ArrowLeftOutlined, ArrowRightOutlined  } from '@ant-design/icons';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Product_Card from './Product_Card';
-import ButtonGroup from './ButtonGroup';
+
 
 
 
@@ -32,7 +32,7 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   
   const { carouselState: { currentSlide } } = rest;
   return (
-    <div className='flex gap-2 absolute bottom-0 right-0  top-0 mt-[1070px] sm:mt-[1120px]   md:mt-[830px] lg:mt-[1160px] mr-[40px] sm:mr-[100px] md:mr-[120px] lg:mr-[190px]'>
+    <div className='flex gap-2 absolute    right-0     top-0 bottom-0    lg:mt-[0px] mr-[40px] sm:mr-[100px] md:mr-[120px] lg:mr-[190px]'>
     <div className='bg-bggreen w-[40px] h-[40px] rounded-full text-center cursor-pointer' onClick={() => previous()}>
     <ArrowLeftOutlined className='mt-[12px]'/>
     </div>
@@ -44,7 +44,7 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   )
 }
   return (
-    <div className='w-[75%] m-auto'>
+    <div className='w-[75%] m-auto relative'>
         <div className='w-[100%] flex justify-between mt-20 m-auto'>
             <div className='flex w-[75%] md:gap-10'>
             <p className='text-white md:text-3xl font-extrabold mt-2'>

@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 
-const staking = () => {
+const Staking = () => {
+
+    const [showTab, setShowtab] = useState(1)
   return (
     <div className="stacking padding-top padding-bottom">
     <div className=" sm:m-auto sm:w-[80%]  md:w-[100%]">
@@ -42,30 +44,37 @@ const staking = () => {
                 </div>
 
                 <div className="mx-10 pb-20 mt-10">
-                    <div className="md:flex md:justify-between">
+                    <div className="lg:flex lg:justify-between">
                         <div className="col-lg-7">
                             <div className="stacking__ammount">
                                 <p className='text-gray-400'>Total Stack</p>
-                                <h4 className='text-white text-2xl font-semibold'>350.70 BUSD</h4>
+                                <h4 className='text-white text-2xl font-semibold'>350.70 BRDFI</h4>
                             </div>
                             <div className="flex flex-col w-[100%]">
-                                <ul className=" mt-4 xs:flex xs:flex-wrap xs:gap-2 md:flex md:gap-2" id="stackingPeriod" role="tablist">
+                                <ul className=" mt-4 xs:flex xs:flex-wrap xs:gap-2 sm:flex sm:flex-wrap ms:gap-2 md:flex  md:gap-2" id="stackingPeriod" role="tablist">
                                     <li className="" role="presentation">
-                                        <button className="w-[100px] h-[50px] rounded bg-bggreen font-semibold">7 Days</button>
+                                        <button className= {showTab === 1?"bg-bggreen w-[100px] h-[50px]  font-semibold rounded border":"w-[100px] h-[50px] rounded border border-bggreen text-white font-semibold"}
+                                         onClick={() => setShowtab(1)}
+                                        >7 Days</button>
                                     </li>
                                     <li className="" role="presentation">
-                                        <button  className="w-[100px] h-[50px] rounded bg-bggreen font-semibold">14 Days</button>
+                                        <button  className={showTab === 2?"bg-bggreen w-[100px] h-[50px]  font-semibold rounded border":"w-[100px] h-[50px] rounded border border-bggreen text-white font-semibold"}
+                                        onClick={() => setShowtab(2)}
+                                        >14 Days</button>
                                     </li>
                                     <li className="" role="presentation">
-                                        <button  className="w-[100px] h-[50px] rounded bg-bggreen font-semibold">30 Days</button>
+                                        <button  className={showTab === 3?"bg-bggreen w-[100px] h-[50px]  font-semibold rounded border":"w-[100px] h-[50px] rounded border border-bggreen text-white font-semibold"}
+                                        onClick={() => setShowtab(3)}
+                                        >30 Days</button>
                                     </li>
                                     <li className="" role="presentation">
-                                        <button  className="w-[100px] h-[50px] rounded bg-bggreen font-semibold"> 60 Days</button>
+                                        <button  className={showTab === 4?"bg-bggreen w-[100px] h-[50px]  font-semibold rounded border":"w-[100px] h-[50px] rounded border border-bggreen text-white font-semibold"}
+                                        onClick={() => setShowtab(4)}
+                                        > 60 Days</button>
                                     </li>
                                 </ul>
                                 <div className="mt-6" id="myTabContent">
-                                    <div className="tab-pane fade show active" id="period-tab1-pane" role="tabpanel"
-                                        aria-labelledby="period-tab1" tabindex="0">
+                                    <div className={showTab === 1? "block":"hidden"}>
                                         <div className="stacking__info">
                                             <div className="flex justify-between">
                                                 <div className="col-sm-8">
@@ -82,7 +91,7 @@ const staking = () => {
                                                         </li>
                                                         <li className="stacking__info-item">
                                                             <p className="text-gray-400">Early unstake fee:
-                                                                <span className="text-white font-bold">23%</span>
+                                                                <span className="text-white font-bold">10%</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
@@ -101,112 +110,112 @@ const staking = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="hidden" id="period-tab2-pane" role="tabpanel"
+                                    <div className={showTab ===2?"block":"hidden"}id="period-tab2-pane" role="tabpanel"
                                         aria-labelledby="period-tab2" tabindex="0">
                                         <div className="stacking__info">
-                                            <div className="row align-items-center g-5">
+                                            <div className="flex justify-between">
                                                 <div className="col-sm-8">
                                                     <ul className="stacking__info-list">
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Lock Period:
-                                                                <span className="stacking__info-value">14 Days</span>
+                                                            <p className="text-gray-400">Lock Period:
+                                                                <span className="text-white font-bold">14 Days</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Re-locks on registration:
-                                                                <span className="stacking__info-value">Yes</span>
+                                                            <p className="text-gray-400">Re-locks on registration:
+                                                                <span className="text-white font-bold">Yes</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Early unstake fee:
-                                                                <span className="stacking__info-value">23%</span>
+                                                            <p className="text-gray-400">Early unstake fee:
+                                                                <span className="text-white font-bold">20%</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Status:
-                                                                <span className="stacking__info-value">Unlocked</span>
+                                                            <p className="text-gray-400">Status:
+                                                                <span className=" text-white font-bold">Unlocked</span>
                                                             </p>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-sm-4">
                                                     <div className="stacking__apy">
-                                                        <p>APY Rate </p>
-                                                        <h3>20%</h3>
+                                                        <p className='text-gray-400'>APY Rate </p>
+                                                        <h3 className='text-white text-2xl font-bold'>20%</h3>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="hidden"  id="period-tab3-pane" role="tabpanel"
+                                    <div className={showTab ===3?"block":"hidden"}  id="period-tab3-pane" role="tabpanel"
                                         aria-labelledby="period-tab3" tabindex="0">
                                         <div className="stacking__info">
-                                            <div className="row align-items-center g-5">
+                                            <div className="flex justify-between">
                                                 <div className="col-sm-8">
                                                     <ul className="stacking__info-list">
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Lock Period:
-                                                                <span className="stacking__info-value">30 Days</span>
+                                                            <p className="text-gray-400">Lock Period:
+                                                                <span className="text-white font-bold">30 Days</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Re-locks on registration:
-                                                                <span className="stacking__info-value">Yes</span>
+                                                            <p className="text-gray-400">Re-locks on registration:
+                                                                <span className="text-white font-bold">Yes</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Early unstake fee:
-                                                                <span className="stacking__info-value">23%</span>
+                                                            <p className="text-gray-400">Early unstake fee:
+                                                                <span className="text-white font-bold">90%</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Status:
-                                                                <span className="stacking__info-value">Unlocked</span>
+                                                            <p className="text-gray-400">Status:
+                                                                <span className="text-white font-bold">Unlocked</span>
                                                             </p>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div className="col-sm-4">
+                                      <div className="col-sm-4">
                                                     <div className="stacking__apy">
-                                                        <p>APY Rate </p>
-                                                        <h3>30%</h3>
+                                                        <p className='text-gray-400'>APY Rate </p>
+                                                        <h3 className='text-white text-2xl font-bold'>90%</h3>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="hidden" id="period-tab4-pane" role="tabpanel"
+                                    <div className={showTab ===4?"block":"hidden"} id="period-tab4-pane" role="tabpanel"
                                         aria-labelledby="period-tab4" tabindex="0">
                                         <div className="stacking__info">
-                                            <div className="row align-items-center g-5">
+                                            <div className="flex justify-between">
                                                 <div className="col-sm-8">
                                                     <ul className="stacking__info-list">
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Lock Period:
-                                                                <span className="stacking__info-value">60 Days</span>
+                                                            <p className="text-gray-400">Lock Period:
+                                                                <span className="text-white font-bold">160 Days</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Re-locks on registration:
-                                                                <span className="stacking__info-value">Yes</span>
+                                                            <p className="text-gray-400">Re-locks on registration:
+                                                                <span className="text-white font-bold">Yes</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Early unstake fee:
-                                                                <span className="stacking__info-value">23%</span>
+                                                            <p className="text-gray-400">Early unstake fee:
+                                                                <span className="text-white font-bold">180%</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Status:
-                                                                <span className="stacking__info-value">Unlocked</span>
+                                                            <p className="text-gray-400">Status:
+                                                                <span className="text-white font-bold">Unlocked</span>
                                                             </p>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-sm-4">
                                                     <div className="stacking__apy">
-                                                        <p>APY Rate </p>
-                                                        <h3>45%</h3>
+                                                        <p className='text-gray-400'>APY Rate </p>
+                                                        <h3 className='text-white text-2xl font-bold'>180%</h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -216,7 +225,7 @@ const staking = () => {
 
                             </div>
                         </div>
-                        <div className="flex flex-col px-6 py-6 bg-gray-800 xs:mt-6 rounded-md">
+                        <div className="flex flex-col px-6 py-6 ms:mt-4  bg-gray-800 xs:mt-6 rounded-md">
                             <div className="stacking__approve">
                                 <div className="stacking__approve-field mb-5">
                                     <label for="approve-stack" className="text-white font-semibold">Balance: <span className='text-gray-400'>3529.00 BUSD</span>
@@ -251,4 +260,4 @@ const staking = () => {
   )
 }
 
-export default staking
+export default Staking
