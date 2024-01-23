@@ -7,9 +7,9 @@ const Staking = () => {
     <div className="stacking padding-top padding-bottom">
     <div className=" sm:m-auto sm:w-[80%]  md:w-[100%]">
         <div className=" ">
-            <div className="flex items-center w-[100%]">
-                <div className="lg:flex  xs:w-[100%] sx:m-auto xs:py-2 sm:py-2 sm:mx-10 sm:w-[100%] lg:w-[80%] lg:gap-6 lg:m-auto   lg:mt-20">
-                    <div className=" xs:mt-6 lg:w-[33%]  xs:w-[80%]  xs:m-auto sm:w-[100%] sm:mt-6 md:flex-1 bg-gray-900  py-6 justify-center">
+            <div className="flex items-center md:w-[85%] md:m-auto lg:w-[100%]">
+                <div className="lg:flex md:w-[95%] md:m-auto  xs:w-[100%]  sx:m-auto xs:py-2 sm:py-2 sm:mx-10 sm:w-[100%]  lg:w-[80%] lg:gap-6 lg:m-auto   lg:mt-20">
+                    <div className=" xs:mt-6 lg:w-[33%]  xs:w-[80%]   xs:m-auto sm:w-[100%] sm:mt-6 md:flex-1 bg-gray-900  py-6 justify-center">
                         
                             <div className="flex flex-col items-center">
                                 <h3 className='text-white text-3xl font-semibold'>$ <span className="text-white" data-purecounter-start="639499"
@@ -18,7 +18,7 @@ const Staking = () => {
                             </div>
                      
                     </div>
-                    <div className=" xs:mt-6 sm:w-[100%] sm:mt-6  md:mt-6 lg:w-[33%]  xs:w-[80%]  xs:m-auto  bg-gray-900 py-6 justify-center">
+                    <div className=" xs:mt-6 sm:w-[100%] sm:mt-6  md:mt-6  lg:w-[33%]  xs:w-[80%]  xs:m-auto  bg-gray-900 py-6 justify-center">
                         
                             <div className="flex flex-col items-center">
                                 <h3 className='text-white text-3xl font-semibold'><span className="text-white" data-purecounter-start="0"
