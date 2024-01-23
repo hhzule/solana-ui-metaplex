@@ -8,8 +8,8 @@ const Staking = () => {
     <div className=" sm:m-auto sm:w-[80%]  md:w-[100%]">
         <div className=" ">
             <div className="flex items-center w-[100%]">
-                <div className="lg:flex  xs:w-[100%] sx:m-auto xs:py-2 sm:py-2 sm:mx-20 sm:w-[100%] lg:w-[80%] lg:gap-6 lg:m-auto   lg:mt-20">
-                    <div className=" xs:mt-6 lg:w-[33%]  xs:w-[80%]  xs:m-auto md:flex-1 bg-gray-900  py-6 justify-center">
+                <div className="lg:flex  xs:w-[100%] sx:m-auto xs:py-2 sm:py-2 sm:mx-10 sm:w-[100%] lg:w-[80%] lg:gap-6 lg:m-auto   lg:mt-20">
+                    <div className=" xs:mt-6 lg:w-[33%]  xs:w-[80%]  xs:m-auto sm:w-[100%] sm:mt-6 md:flex-1 bg-gray-900  py-6 justify-center">
                         
                             <div className="flex flex-col items-center">
                                 <h3 className='text-white text-3xl font-semibold'>$ <span className="text-white" data-purecounter-start="639499"
@@ -18,7 +18,7 @@ const Staking = () => {
                             </div>
                      
                     </div>
-                    <div className=" xs:mt-6 lg:w-[33%]  xs:w-[80%]  xs:m-auto  bg-gray-900 py-6 justify-center">
+                    <div className=" xs:mt-6 sm:w-[100%] sm:mt-6  md:mt-6 lg:w-[33%]  xs:w-[80%]  xs:m-auto  bg-gray-900 py-6 justify-center">
                         
                             <div className="flex flex-col items-center">
                                 <h3 className='text-white text-3xl font-semibold'><span className="text-white" data-purecounter-start="0"
@@ -27,7 +27,7 @@ const Staking = () => {
                             </div>
                         
                     </div>
-                    <div className=" xs:mt-6  xs:w-[80%]  xs:m-auto lg:w-[33%] bg-gray-900 py-6 justify-center">
+                    <div className=" xs:mt-6  xs:w-[80%]  sm:w-[100%] sm:mt-6 xs:m-auto lg:w-[33%] bg-gray-900 py-6 justify-center">
                        
                             <div className="flex flex-col items-center">
                                 <h3 className='text-white text-3xl font-semibold'><span className="text-white" data-purecounter-start="0"
@@ -51,7 +51,7 @@ const Staking = () => {
                                 <h4 className='text-white text-2xl font-semibold'>350.70 BRDFI</h4>
                             </div>
                             <div className="flex flex-col w-[100%]">
-                                <ul className=" mt-4 xs:flex xs:flex-wrap xs:gap-2 sm:flex sm:flex-wrap ms:gap-2 md:flex  md:gap-2" id="stackingPeriod" role="tablist">
+                                <ul className=" mt-4 xs:flex xs:flex-wrap xs:gap-2 sm:flex sm:gap-2 sm:flex-wrap ms:gap-2 md:flex  md:gap-2" id="stackingPeriod" role="tablist">
                                     <li className="" role="presentation">
                                         <button className= {showTab === 1?"bg-bggreen w-[100px] h-[50px]  font-semibold rounded border":"w-[100px] h-[50px] rounded border border-bggreen text-white font-semibold"}
                                          onClick={() => setShowtab(1)}
@@ -70,7 +70,7 @@ const Staking = () => {
                                     <li className="" role="presentation">
                                         <button  className={showTab === 4?"bg-bggreen w-[100px] h-[50px]  font-semibold rounded border":"w-[100px] h-[50px] rounded border border-bggreen text-white font-semibold"}
                                         onClick={() => setShowtab(4)}
-                                        > 60 Days</button>
+                                        > 160 Days</button>
                                     </li>
                                 </ul>
                                 <div className="mt-6" id="myTabContent">
@@ -225,7 +225,7 @@ const Staking = () => {
 
                             </div>
                         </div>
-                        <div className="flex flex-col px-6 py-6 ms:mt-4  bg-gray-800 xs:mt-6 rounded-md">
+                        <div className="flex flex-col sm:mt-10  px-6 py-6 ms:mt-4  bg-gray-800 xs:mt-6 rounded-md">
                             <div className="stacking__approve">
                                 <div className="stacking__approve-field mb-5">
                                     <label for="approve-stack" className="text-white font-semibold">Balance: <span className='text-gray-400'>3529.00 BUSD</span>

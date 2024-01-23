@@ -4,7 +4,7 @@ const contact = () => {
   return (
     <div>
         
-        <div className='px-4 mt-20 lg:px-16 mx-auto lg:block max-w-4xl my-8 md:my-12 lg:my-12'>
+        <div className='xs:px-10 sm:px-10 md:px-10  mt-20 lg:px-16 mx-auto lg:block max-w-4xl my-8 md:my-12 lg:my-12'>
             <div className='max-w-[782px] mt-32 bg-[#1B1D26] border border-[#303342] px-5 py-8'>
              <h2 className='text-[32px] font-bold text-center text-white mb-2.5'>
              CONTACT BRDGame

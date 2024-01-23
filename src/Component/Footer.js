@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
         <div className='flex w-full flex-col items-start  mt-14 justify-between gap-3 border-t-[0.5px] border-t-[#B9B9B9] pb-[90px] pt-5 md:flex-row md:items-center md:py-7 lg:py-9 2xl:py-11'>
             <p className='font-inter text-[14px] text-[#B9B9B9] md:text-base'>
-            BRD Lab, 2023
+            Powerd By BRD
             </p>
             <div className='flex gap-3'>
             <a href='http://brdigitech.com/' target='_blank'>

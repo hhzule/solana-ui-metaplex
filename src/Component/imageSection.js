@@ -3,7 +3,7 @@ import React from 'react'
 const ImageSection = () => {
   return (
     <div>
-        <div className='flex justify-center md:flex-wrap absolute     xs:mt-0  md:mx-20 lg:ml-[180px] gap-[20px] flex-wrap items-center md:gap-[40px]'>
+        <div className='flex justify-center md:flex-wrap absolute      xs:mt-0  md:mx-20 lg:ml-[180px] gap-[20px] flex-wrap items-center md:gap-[40px]'>
             <div className='w-[100px]'>
             <img src='assets/animocabrands.png' className=''/>
             </div>
